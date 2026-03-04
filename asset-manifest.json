@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/zoe-conference/static/css/main.e6c13ad2.css",
+    "main.css": "/zoe-conference/static/css/main.cf890fdb.css",
     "main.js": "/zoe-conference/static/js/main.6d6b9c1a.js",
     "static/js/453.8ea10b78.chunk.js": "/zoe-conference/static/js/453.8ea10b78.chunk.js",
     "index.html": "/zoe-conference/index.html",
-    "main.e6c13ad2.css.map": "/zoe-conference/static/css/main.e6c13ad2.css.map",
+    "main.cf890fdb.css.map": "/zoe-conference/static/css/main.cf890fdb.css.map",
     "main.6d6b9c1a.js.map": "/zoe-conference/static/js/main.6d6b9c1a.js.map",
     "453.8ea10b78.chunk.js.map": "/zoe-conference/static/js/453.8ea10b78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
+    "static/css/main.cf890fdb.css",
     "static/js/main.6d6b9c1a.js"
   ]
 }
