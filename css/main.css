@@ -272,11 +272,11 @@ h2.display{font-size:clamp(2.6rem,6vw,4.6rem)}
 /* Frosted glass — fully veils the garden so it doesn't echo the hero bg */
 .journey__frost{
   position:absolute;inset:0;z-index:1;pointer-events:none;
-  -webkit-backdrop-filter:blur(46px) saturate(1.08) brightness(.92);
-  backdrop-filter:blur(46px) saturate(1.08) brightness(.92);
+  -webkit-backdrop-filter:blur(10px) saturate(1.05);
+  backdrop-filter:blur(10px) saturate(1.05);
   background:
-    radial-gradient(120% 80% at 50% 0%,rgba(230,207,159,.06),transparent 60%),
-    linear-gradient(165deg,rgba(22,28,14,.74),rgba(20,26,14,.66) 50%,rgba(13,17,8,.82));
+    radial-gradient(120% 80% at 50% 0%,rgba(230,207,159,.05),transparent 55%),
+    linear-gradient(165deg,rgba(22,28,14,.24),rgba(20,26,14,.16) 50%,rgba(13,17,8,.34));
 }
 .journey::before,.journey::after{
   content:"";position:absolute;left:0;right:0;height:26vh;z-index:2;pointer-events:none;
