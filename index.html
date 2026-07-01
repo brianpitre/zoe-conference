@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zoe Conference 2026 — In the Beginning… | The Life Church</title>
+<meta name="description" content="Zoe Conference 2026 · In the Beginning… A two-day gathering for women at The Life Church, Memphis. September 25–26, 2026. Featuring Lisa Harper and Manny Arango.">
+<meta property="og:title" content="Zoe Conference 2026 — In the Beginning…">
+<meta property="og:description" content="A two-day gathering for women at The Life Church, Memphis · September 25–26, 2026.">
+<meta property="og:image" content="images/hero-full.jpg">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/png" href="images/z-icon.png">
+<link rel="preload" as="image" href="images/title-gold-trim.webp">
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<!-- Loader -->
+<div class="loader" id="loader" aria-hidden="true">
+  <img src="images/z-icon.png" alt="" class="loader__icon">
+  <div class="loader__line"></div>
+</div>
+
+<!-- Film grain + floating gold dust -->
+<div class="grain" aria-hidden="true"></div>
+<canvas id="dust" aria-hidden="true"></canvas>
+
+<!-- Navigation -->
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top" aria-label="Zoe Conference home">
+    <img src="images/z-icon.png" alt="" class="nav__icon">
+    <span class="nav__wordmark">Zoe <em>Conference</em></span>
+  </a>
+  <nav class="nav__links" aria-label="Primary">
+    <a href="#speakers">Speakers</a>
+    <a href="#details">Details</a>
+    <a href="#rates">Rates</a>
+    <a href="faqs.html">FAQs</a>
+  </nav>
+  <a href="#register" class="btn btn--gold nav__cta js-register">Register</a>
+  <button class="nav__burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+    <span></span><span></span>
+  </button>
+</header>
+
+<!-- Mobile menu -->
+<div class="mmenu" id="mobileMenu" aria-hidden="true">
+  <nav class="mmenu__links" aria-label="Mobile">
+    <a href="#speakers">Speakers</a>
+    <a href="#details">Details</a>
+    <a href="#rates">Rates</a>
+    <a href="faqs.html">FAQs</a>
+    <a href="scholarship.html">Scholarship</a>
+    <a href="#register" class="btn btn--gold js-register">Register</a>
+  </nav>
+  <img src="images/z-icon.png" alt="" class="mmenu__icon">
+</div>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <div class="hero__media">
+      <video class="hero__video" autoplay muted loop playsinline preload="metadata" poster="images/hero-video-poster.jpg">
+        <source src="video/hero-loop-web.webm" type="video/webm">
+        <source src="video/hero-loop-web.mp4" type="video/mp4">
+      </video>
+      <div class="hero__vignette"></div>
+    </div>
+    <div class="hero__content">
+      <p class="eyebrow hero__eyebrow">The Life Church · Memphis &nbsp;·&nbsp; A Conference for Women</p>
+      <h1 class="hero__title">
+        <img src="images/title-gold-trim.webp" alt="In the Beginning…">
+        <span class="visually-hidden">Zoe Conference 2026 — In the Beginning…</span>
+      </h1>
+      <p class="hero__date">September 25 <span class="amp">&amp;</span> 26, 2026</p>
+      <div class="hero__ctas">
+        <a href="#register" class="btn btn--gold btn--lg js-register">Register Now</a>
+        <a href="#journey" class="btn btn--ghost btn--lg js-scroll">Begin the Journey</a>
+      </div>
+    </div>
+    <a class="hero__scrollcue js-scroll" href="#journey" aria-label="Scroll down">
+      <span class="hero__scrollcue-line"></span>
+    </a>
+  </section>
+
+  <!-- ============ JOURNEY INTRO ============ -->
+  <section class="journey" id="journey">
+    <div class="journey__bg" data-parallax>
+      <img src="images/hero-full.jpg" alt="" loading="lazy">
+    </div>
+    <div class="journey__inner">
+      <p class="journey__line reveal-lines">Before there was light, before there was a garden,<br class="br-desk"> before there was <em>you</em> — there was a God who creates.</p>
+      <blockquote class="journey__verse">
+        <p class="journey__verse-text">“In the beginning, God created the heavens and the earth.”</p>
+        <cite class="eyebrow">Genesis 1:1</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- ============ WELCOME LETTER ============ -->
+  <section class="letter" id="welcome">
+    <div class="letter__wrap">
+      <!-- NOTE: Draft 2026 welcome copy written to theme — pending Pastor Leslie's approval.
+           The source web-copy doc flags that new letter copy is needed (2025 letter was placeholder). -->
+      <figure class="letter__paper reveal-panel">
+        <img class="letter__z" src="images/z-icon.png" alt="">
+        <p class="eyebrow letter__eyebrow">A letter from Pastor Leslie</p>
+        <div class="letter__body">
+          <p><span class="dropcap">T</span>here’s a reason the very first words of Scripture still take our breath away: <em>“In the beginning, God created…”</em> Before anything else existed, our God was planting a garden, breathing life into dust and calling it <em>good</em>.</p>
+          <p>This year at Zoe Conference, we’re going back to where everything starts. Maybe this season finds you standing at the edge of something brand new — or quietly longing for a fresh start. Either way, I have good news: the God of Genesis is still creating, still restoring, and He is still writing your story.</p>
+          <p>So gather your friends, your sisters and your daughters, and join us for a weekend of worship, laughter and the kind of friendship that only grows in God’s garden. I believe with all my heart — God will meet us there.</p>
+        </div>
+        <div class="letter__sig">
+          <p class="letter__sig-line">With love &amp; anticipation,</p>
+          <img src="images/signature.png" alt="Pastor Leslie’s signature">
+          <p class="letter__sig-team">and the Zoe Team</p>
+        </div>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ SPEAKERS ============ -->
+  <section class="speakers" id="speakers">
+    <div class="section-head">
+      <p class="eyebrow">Voices in the garden</p>
+      <h2 class="display">Guest Speakers</h2>
+    </div>
+    <div class="speakers__grid">
+      <article class="speaker reveal-panel">
+        <div class="speaker__arch">
+          <img src="images/lisa-harper.jpg" alt="Lisa Harper" loading="lazy">
+        </div>
+        <h3 class="speaker__name display">Lisa Harper</h3>
+        <p class="speaker__bio">Lisa Harper is a compelling communicator whose writing and speaking emphasize that acquiring knowledge about God pales next to an intimate relationship with Jesus. Her style combines sound biblical exposition and exegesis with engaging anecdotes and comedic wit. She’s been featured on numerous television and radio programs, hosts the <em>Lisa Harper’s Back Porch Theology</em> podcast, is a best-selling author and has spoken at hundreds of churches and women’s events. Lisa lives in Nashville with her daughter, Missy.</p>
+      </article>
+      <article class="speaker reveal-panel">
+        <div class="speaker__arch">
+          <img src="images/manny-arango.jpg" alt="Manny Arango" loading="lazy">
+        </div>
+        <h3 class="speaker__name display">Manny Arango</h3>
+        <p class="speaker__bio">Dr. Manny Arango is a Bible nerd and the founder of ARMA Courses, an online educational platform equipping Christians to become biblically literate. He earned a doctorate in New Testament studies from North Baptist Theological Seminary. Manny and his beautiful wife, Tia, are the senior pastors of The Garden, which launched in February 2026 in Houston, TX. They have been married for 12 years and have a son named Theophilus.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ DETAILS / SCHEDULE ============ -->
+  <section class="details" id="details">
+    <div class="section-head">
+      <p class="eyebrow">Conference details</p>
+      <h2 class="display">Two Days in the Garden</h2>
+    </div>
+
+    <div class="details__days">
+      <article class="day day--evening reveal-panel">
+        <div class="day__media">
+          <video class="day__video js-ambient" muted loop playsinline preload="none" poster="images/gen-bluehour_1.jpg">
+            <source data-src="video/bluehour-loop.mp4" type="video/mp4">
+          </video>
+          <div class="day__scrim"></div>
+        </div>
+        <div class="day__content">
+          <p class="eyebrow day__eyebrow">Friday · September 25</p>
+          <h3 class="day__time">7:00<small>p</small> – 10:00<small>p</small></h3>
+          <p class="day__desc">Evening Session <span class="amp">&amp;</span> After Show</p>
+          <p class="day__note">Check-in opens at 6:00p · Doors open one hour before the session</p>
+        </div>
+      </article>
+
+      <article class="day day--morning reveal-panel">
+        <div class="day__media">
+          <img src="images/gen-morning.jpg" alt="" loading="lazy">
+          <div class="day__scrim"></div>
+        </div>
+        <div class="day__content">
+          <p class="eyebrow day__eyebrow">Saturday · September 26</p>
+          <h3 class="day__time">9:00<small>a</small> – 1:00<small>p</small></h3>
+          <p class="day__desc">Daytime Sessions</p>
+          <p class="day__note">Breakfast included</p>
+        </div>
+      </article>
+    </div>
+
+    <div class="details__location reveal-panel">
+      <div class="details__location-text">
+        <p class="eyebrow">Location</p>
+        <h3 class="display details__venue">The Life Church</h3>
+        <p class="details__campus">Houston Levee Campus</p>
+        <address>650 Houston Hill Road<br>Eads, TN 38028</address>
+        <a class="btn btn--outline" href="https://maps.google.com/?q=The+Life+Church,+650+Houston+Hill+Road,+Eads,+TN+38028" target="_blank" rel="noopener">Get Directions</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ RATES ============ -->
+  <section class="rates" id="rates">
+    <div class="section-head">
+      <p class="eyebrow">Rates</p>
+      <h2 class="display">Reserve Your Seat</h2>
+      <p class="section-sub">Registration includes all sessions, the Friday After Show, breakfast on Saturday and a special gift.</p>
+    </div>
+    <div class="rates__grid">
+      <article class="rate rate--current reveal-panel">
+        <p class="rate__badge">On sale now</p>
+        <h3 class="rate__tier">Early</h3>
+        <p class="rate__price"><sup>$</sup>69<span>/person</span></p>
+        <p class="rate__window">Ends August 2</p>
+        <a href="#register" class="btn btn--gold js-register">Register</a>
+      </article>
+      <article class="rate reveal-panel">
+        <h3 class="rate__tier">Regular</h3>
+        <p class="rate__price"><sup>$</sup>79<span>/person</span></p>
+        <p class="rate__window">August 3 – September 13</p>
+      </article>
+      <article class="rate reveal-panel">
+        <h3 class="rate__tier">Last Chance</h3>
+        <p class="rate__price"><sup>$</sup>89<span>/person</span></p>
+        <p class="rate__window">Starts September 14</p>
+      </article>
+      <article class="rate reveal-panel">
+        <h3 class="rate__tier">Students</h3>
+        <p class="rate__price"><sup>$</sup>25<span>/person</span></p>
+        <p class="rate__window">6th Grade – College <small>(up to age 23)</small></p>
+      </article>
+    </div>
+    <p class="rates__scholarship">Need a hand getting here? <a href="scholarship.html">Partial scholarships</a> are available for ladies at The Life Church.</p>
+  </section>
+
+  <!-- ============ FOUNDATION ============ -->
+  <section class="foundation" id="foundation">
+    <div class="foundation__media">
+      <video class="foundation__video js-ambient" muted loop playsinline preload="none" poster="images/gen-botanical.jpg">
+        <source data-src="video/botanical-loop.mp4" type="video/mp4">
+      </video>
+      <div class="foundation__scrim"></div>
+    </div>
+    <div class="foundation__panel reveal-panel">
+      <p class="eyebrow">Life Women’s Foundation</p>
+      <h2 class="display">Kindness that Builds a Life</h2>
+      <p>Life Women’s Foundation was established to show God’s kindness and to honor the journey of women in our world. The power of simple acts of kindness and generosity speaks louder than words and is able to lift the life of someone experiencing a difficult season. As we honor others who are fighting life through with bravery and triumphing through adversity, it builds our own lives.</p>
+      <p>Each year, we celebrate the lives of some of the heroines in our midst. We surprise them with gifts, lavish them with our love and words of encouragement, cheer them on and witness God working in their lives. Our hope is to bring a piece of God’s goodness to them — to let them feel God’s love and our love too. You’ll have the opportunity to sow into the Life Women’s Foundation through our annual offering and through our Foundation Store, where all proceeds benefit the Foundation.</p>
+    </div>
+  </section>
+
+  <!-- ============ FAQ PREVIEW ============ -->
+  <section class="faq" id="faqs">
+    <div class="section-head">
+      <p class="eyebrow">Good to know</p>
+      <h2 class="display">Questions, Answered</h2>
+    </div>
+    <div class="faq__list">
+      <details class="faq__item reveal-panel">
+        <summary>What is included in the cost?</summary>
+        <p>Registration includes all sessions, the After Show on Friday, breakfast on Saturday and a special gift. We’ll have fun photo opportunities and you can shop in the Zoe Foundation Store.</p>
+      </details>
+      <details class="faq__item reveal-panel">
+        <summary>What is the After Show?</summary>
+        <p>On Friday night, join us for our first-ever Zoe After Show! Following our evening session, we will have a short intermission and then reconvene in the main auditorium for a hosted event packed with fun, laughter and unforgettable moments. From live entertainment and audience games to incredible prizes and giveaways, there is something for everyone to enjoy.</p>
+      </details>
+      <details class="faq__item reveal-panel">
+        <summary>Can I bring my children with me?</summary>
+        <p>We do not offer childcare during Zoe Conference. All children, including infants, are not permitted in the building. If your daughter is in 6th through 12th grade, she can attend the conference by registering at our special student rate.</p>
+      </details>
+      <details class="faq__item reveal-panel">
+        <summary>What should I bring?</summary>
+        <p>We encourage you to bring a Bible, notebook and a friend! And if you get cold easily, consider a light sweater or jacket for the auditorium.</p>
+      </details>
+    </div>
+    <div class="faq__more">
+      <a href="faqs.html" class="btn btn--outline">View All FAQs</a>
+    </div>
+  </section>
+
+  <!-- ============ REGISTER CTA ============ -->
+  <section class="register" id="register">
+    <div class="register__bg" data-parallax>
+      <img src="images/gen-archway_1.jpg" alt="" loading="lazy">
+    </div>
+    <div class="register__inner">
+      <p class="eyebrow">Zoe Conference 2026</p>
+      <h2 class="display register__title">Step Into the Beginning</h2>
+      <p class="register__sub">September 25 <span class="amp">&amp;</span> 26 · The Life Church · Memphis</p>
+      <a href="#" class="btn btn--gold btn--lg js-register">Register Now</a>
+      <p class="register__fine">Questions? Write to us at <a href="mailto:zoe@thelifechurch.com">zoe@thelifechurch.com</a></p>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <img src="images/z-icon.png" alt="" class="footer__icon">
+  <p class="footer__word display">Zoe Conference</p>
+  <p class="footer__addr">The Life Church · 650 Houston Hill Road, Eads, TN 38028</p>
+  <nav class="footer__links" aria-label="Footer">
+    <a href="faqs.html">FAQs</a>
+    <a href="scholarship.html">Scholarship</a>
+    <a href="mailto:zoe@thelifechurch.com">Contact</a>
+    <a href="https://thelifechurch.com" target="_blank" rel="noopener">thelifechurch.com</a>
+  </nav>
+  <p class="footer__copy">© 2026 The Life Church. All rights reserved.</p>
+</footer>
+
+<script src="js/gsap.min.js"></script>
+<script src="js/ScrollTrigger.min.js"></script>
+<script src="js/lenis.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
